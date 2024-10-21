@@ -1,13 +1,11 @@
 import './App.css'
-import background from './assets/background.png'
+import Home from './Home'
 
 function App() {
 
   return (
     <>
-    <div>
-      <img className="background" src={background} alt="" />
-    </div>
+      <Home/>
     </>
   )
 }
