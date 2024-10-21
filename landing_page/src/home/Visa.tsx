@@ -1,4 +1,6 @@
-import background from './assets/background.png'
+import './Visa.css'
+import background from '../assets/background.png'
+import LearnMoreButton from './LearnMoreButton';
 
 export default function Visa() {
 
@@ -9,7 +11,7 @@ export default function Visa() {
         <div className="text-wrapper">
           <p className="text">Make Your Canadian Immigration Dream A Reality!</p>
         </div>
-        <button className="learn-more-button">Learn More</button>
+        <LearnMoreButton/>
       </div>
     </div>
   );

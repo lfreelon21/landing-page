@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.areas-of-practice {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.areas-of-practice h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2D374B;
+}
+
+.practice-areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.practice-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.practice-area img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.practice-area-content {
+  text-align: center;
+}
+
+.practice-area h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2D374B;
+}
+
+.practice-area p {
+  margin-bottom: 1rem;
+  color: #131318;
+}
+
+.learn-more-button:hover {
+  background-color: #c82333;
+}
+
+@media (min-width: 768px) {
+  .practice-areas {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .practice-area {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .practice-area.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .practice-area img {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .practice-area-content {
+    width: 50%;
+    padding: 0 1rem;
+    text-align: left;
+  }
+}
