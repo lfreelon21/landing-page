@@ -29,6 +29,16 @@ export default function AreasOfPractice() {
           </div>
         </div>
       </div>
+      <div className="numbers-section">
+        <div className="ten-container">
+          <div className="plus">10+</div>
+          <p className="plus-content">Years in Business</p>
+        </div>
+        <div className="hundred-container">
+          <div className="plus">10+</div>
+          <p className="plus-content">Clients Served</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -52,7 +52,22 @@
 }
 
 .learn-more-button:hover {
-  background-color: #c82333;
+  background-color: #9f221f;
+}
+
+.plus {
+  color: #9f221f;
+  font-size: 5rem;
+}
+.plus-content {
+  width: 100px;
+  line-height: 250%;
+}
+.numbers-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem;
 }
 
 @media (min-width: 768px) {
