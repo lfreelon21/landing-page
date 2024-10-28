@@ -1,5 +1,5 @@
 import './AreasOfPractice.css';
-import LearnMoreButton from './LearnMoreButton';
+import RedButton from './RedButton';
 import business_person from '../assets/business_person.png';
 import handshake from '../assets/handshake.png';
 
@@ -15,7 +15,7 @@ export default function AreasOfPractice() {
             <h2>Business Immigration</h2>
             <p>Interested in immigrating to Canada by owning a business?</p>
             <p>Our expert guidance in strategy, sales, marketing, and finance will help you establish your business and navigate the immigration process seamlessly.</p>
-            <LearnMoreButton/>
+            <RedButton/>
           </div>
         </div>
 
@@ -25,7 +25,7 @@ export default function AreasOfPractice() {
             <h2>Worker Immigration</h2>
             <p>Seeking sponsorship from Canadian companies for work and immigration?</p>
             <p>Our network connects foreign workers with reputable employers to match your skills with the right opportunities.</p>
-            <LearnMoreButton/>
+            <RedButton/>
           </div>
         </div>
       </div>
