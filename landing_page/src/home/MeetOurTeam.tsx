@@ -6,7 +6,7 @@ export default function MeetOurTeam() {
 return (
   <div className="meet-our-team">
     <h1>Meet Our Team</h1>
-    <div className="container">
+    <div className="meet-container">
       <img src={gia} alt="Gia"/>
       <div className="content">
         <h2>Gia Chen (Founder)</h2>
