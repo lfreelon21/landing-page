@@ -1,6 +1,6 @@
 import './ImmigrationInsights.css'
 import business_person from '../assets/business_person.png';
-import RedButton from './RedButton';
+import RedButton from '../RedButton';
 
 export default function ImmigrationInsights() {
   const business_immigration_divs = [];

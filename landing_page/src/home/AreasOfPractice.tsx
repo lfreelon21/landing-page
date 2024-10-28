@@ -1,5 +1,5 @@
 import './AreasOfPractice.css';
-import RedButton from './RedButton';
+import RedButton from '../RedButton';
 import business_person from '../assets/business_person.png';
 import handshake from '../assets/handshake.png';
 

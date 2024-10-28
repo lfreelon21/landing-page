@@ -1,6 +1,6 @@
 import './Visa.css'
 import background from '../assets/background.png'
-import LearnMoreButton from './RedButton';
+import LearnMoreButton from '../RedButton';
 
 export default function Visa() {
 

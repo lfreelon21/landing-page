@@ -1,6 +1,6 @@
 import './MeetOurTeam.css';
 import gia from '../assets/gia.png';
-import RedButton from './RedButton';
+import RedButton from '../RedButton';
 
 export default function MeetOurTeam() {
 return (
