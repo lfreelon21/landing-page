@@ -35,7 +35,7 @@ export default function AreasOfPractice() {
           <p className="plus-content">Years in Business</p>
         </div>
         <div className="hundred-container">
-          <div className="plus">10+</div>
+          <div className="plus">100+</div>
           <p className="plus-content">Clients Served</p>
         </div>
       </div>

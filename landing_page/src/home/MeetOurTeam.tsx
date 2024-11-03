@@ -7,8 +7,8 @@ return (
   <div className="meet-our-team">
     <h1>Meet Our Team</h1>
     <div className="meet-container">
-      <img src={gia} alt="Gia"/>
-      <div className="content">
+      <img src={gia} alt="gia"/>
+      <div className="meet-content">
         <h2>Gia Chen (Founder)</h2>
         <h3>RCIC (Regulated Canadian Immigration Consultant)</h3>
         <p>As an immigrant to Canada in 2017, she understands the challenges that newcomers face on their immigration journey.</p>
