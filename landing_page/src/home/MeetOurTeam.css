@@ -16,7 +16,7 @@
   font-size: 40px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 3rem 0;
   color: #2D374B;
 }
 
@@ -27,10 +27,31 @@
   margin: 0 4rem;
 }
 
+.meet-container img {
+  width: 50%;
+  height: auto;
+}
+.meet-our-team button {
+  margin-bottom: 5rem;
+}
+
 .meet-content {
   text-align: left;
   padding: 0 2rem;
   font-size: 18px;
+  width: 50%;
+}
+
+.meet-content h2 {
+  font-size: 32px;
+}
+
+.meet-content h3 {
+  font-size: 28px;
+}
+
+.meet-content p {
+  font-size: 24px;
 }
 
 .meet-our-team button {

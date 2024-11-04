@@ -11,16 +11,18 @@ export default function Nav() {
           <a href="#" aria-label="Facebook"><FaFacebook /></a>
           <a href="#" aria-label="YouTube"><FaYoutube /></a>
         </div>
-        <div className="wechat">
-          <button className="wechat-btn">微信: chensadmin</button>
-        </div>
-        <div className="search-lang">
-          <div className="search-container">
-            <input type="text" placeholder="Search" />
-            <FaSearch className="search-icon" />
+        <div className="right-side">
+          <div className="wechat">
+            <button className="wechat-btn">微信: chensadmin</button>
           </div>
-          <div className="language-toggle">
-            中文 | EN
+          <div className="search-lang">
+            <div className="search-container">
+              <input type="text" placeholder="Search" />
+              <FaSearch className="search-icon" />
+            </div>
+            <div className="language-toggle">
+              中文 | EN
+            </div>
           </div>
         </div>
       </div>

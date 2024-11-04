@@ -25,12 +25,12 @@
 .practice-area {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; 
+  box-sizing: border-box;
 }
 
 .practice-area img {
-  width: 100%;
-  max-width: 400px;
+  width: 50%;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -48,11 +48,8 @@
 
 .practice-area p {
   margin-bottom: 1rem;
+  font-size: 18px;
   color: #131318;
-}
-
-.learn-more-button:hover {
-  background-color: #9f221f;
 }
 
 .plus {
@@ -67,7 +64,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 4rem;
+  margin: 2rem 4rem;
 }
 
 @media (min-width: 768px) {

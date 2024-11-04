@@ -15,3 +15,7 @@ html, body {
   top: 0;
   left: 0;
 }
+
+:root {
+  --main-red-color: #9f221f;
+}
