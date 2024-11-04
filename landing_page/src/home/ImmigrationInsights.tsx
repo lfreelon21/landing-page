@@ -19,7 +19,7 @@ export default function ImmigrationInsights() {
   }
 
   return (
-    <div>
+    <div className="immigration-insights">
       <h1>Immigration Insights</h1>
       <div className="immigration-container">
         {business_immigration_divs}
