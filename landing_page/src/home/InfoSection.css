@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.info-section-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 10rem;
+  padding: 6rem 4rem;
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+.right-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem 8rem;
+}
+
+.right-container a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.right-container > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  opacity: 0.8;
+}
+
+.right-container h2 {
+  font-weight: 400;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 30%;
+}
+
+.left-container p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 40%;
+  text-align: left;
+  padding: 0 2rem;
+  opacity: 0.8;
+}
+.left-container img {
+  width: 60%;
+  height: 40%;
+  object-fit: cover;
+}
