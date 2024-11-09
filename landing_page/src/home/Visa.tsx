@@ -5,7 +5,7 @@ import RedButton from '../RedButton';
 export default function Visa() {
 
   return (
-    <div>
+    <div className="visa">
       <img className="background" src={background} alt="" />
       <div className="content-wrapper">
         <div className="text-wrapper">
