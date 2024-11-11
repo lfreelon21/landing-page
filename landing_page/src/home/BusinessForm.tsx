@@ -4,13 +4,11 @@ import RedButton from '../RedButton';
 export default function BusinessForm() {
   return (
     <form className="form-container">
-      <div className="first-row">
-        <label htmlFor="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="Name"/>
+      <label htmlFor="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Name"/>
 
-        <label htmlFor="phone">Phone Number</label>
-        <input id="phone" name="phone" type="text" placeholder="Phone Number" />
-      </div>
+      <label htmlFor="phone">Phone Number</label>
+      <input id="phone" name="phone" type="text" placeholder="Phone Number" />
 
       <label htmlFor="email">Email</label>
       <input id="email" name="email" type="text" placeholder="Email" />
