@@ -15,7 +15,9 @@ return (
         <p>With a passion for helping others, she draws on her 10 years of experience in the field to provide professional guidance, aiming to support more individuals in achieving their Canadian dream!</p>
       </div>
     </div>
-    <RedButton text="Meet The Whole Team"/>
+    <div className="button-container">
+      <RedButton text="Meet The Whole Team"/>
+    </div>
   </div>
 )
 }

@@ -4,18 +4,5 @@ html, body {
   overflow-x: hidden;
 }
 
-#root {
-  width: 100vw;
-  height: 100vh;
-  margin: 0 0;
-  padding: 0;
-  text-align: center;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-:root {
-  --main-red-color: #9f221f;
+:root {  --main-red-color: #9f221f;
 }

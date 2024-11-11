@@ -54,7 +54,12 @@
   font-size: 24px;
 }
 
-.meet-our-team button {
-  width: 200px;
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  width: 15rem;
   margin-top: 2.5rem;
 }
