@@ -60,3 +60,30 @@
   height: 40%;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .info-section-container {
+    flex-direction: column;
+    padding: 4rem 0rem;
+  }
+
+  .right-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .left-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-container img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .left-container p {
+    width: 80%;
+  }
+}
