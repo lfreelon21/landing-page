@@ -63,3 +63,17 @@
   width: 15rem;
   margin-top: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .meet-container {
+    flex-direction: column;
+  }
+
+  .meet-container img {
+    width: 100%;
+  }
+
+  .meet-content {
+    width: 100%;
+  }
+}
