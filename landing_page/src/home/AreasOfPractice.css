@@ -2,9 +2,11 @@
 
 .areas-of-practice {
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   padding: 5vh;
   font-family: Roboto, sans-serif;
+  position: relative;
+  left: 10%;
 }
 
 .areas-of-practice h1 {

@@ -10,6 +10,9 @@
   margin: 0 auto;
   padding: 20px; */
   font-family: Roboto, sans-serif;
+  width: 80%;
+  position: relative;
+  left: 10%;
 }
 
 .meet-our-team h1 {
